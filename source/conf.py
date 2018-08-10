@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Read-the-Docs documentation build configuration file, created by
-# sphinx-quickstart on Fri Aug 10 23:37:40 2018.
+# Read-thw-Docs documentation build configuration file, created by
+# sphinx-quickstart on Fri Aug 10 23:59:46 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Read-the-Docs'
+project = 'Read-thw-Docs'
 copyright = '2018, TRsky'
 author = 'TRsky'
 
@@ -64,7 +64,7 @@ release = '1.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -83,7 +83,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -115,7 +115,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Read-the-Docsdoc'
+htmlhelp_basename = 'Read-thw-Docsdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -142,7 +142,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Read-the-Docs.tex', 'Read-the-Docs Documentation',
+    (master_doc, 'Read-thw-Docs.tex', 'Read-thw-Docs Documentation',
      'TRsky', 'manual'),
 ]
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'read-the-docs', 'Read-the-Docs Documentation',
+    (master_doc, 'read-thw-docs', 'Read-thw-Docs Documentation',
      [author], 1)
 ]
 
@@ -163,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Read-the-Docs', 'Read-the-Docs Documentation',
-     author, 'Read-the-Docs', 'One line description of project.',
+    (master_doc, 'Read-thw-Docs', 'Read-thw-Docs Documentation',
+     author, 'Read-thw-Docs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
