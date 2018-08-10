@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index","instro","sample"],envversion:53,filenames:["index.rst","instro.rst","sample.rst"],objects:{},objnames:{},objtypes:{},terms:{hello:[1,2],index:0,modul:0,page:0,sampl:2,search:0,sphinix:1,thi:2},titles:["Welcome to ReadBooks\u2019s documentation!","&lt;no title&gt;","&lt;no title&gt;"],titleterms:{document:0,indic:0,readbook:0,tabl:0,welcom:0}})
