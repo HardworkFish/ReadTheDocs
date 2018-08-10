@@ -21,7 +21,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
+import sphinx_rtd_theme
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Read-thw-Docs'
+project = 'Read-the-Docs'
 copyright = '2018, TRsky'
 author = 'TRsky'
 
@@ -115,7 +115,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Read-thw-Docsdoc'
+htmlhelp_basename = 'Read-the-Docs-help'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -142,7 +142,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Read-thw-Docs.tex', 'Read-thw-Docs Documentation',
+    (master_doc, 'Read-the-Docs.tex', 'Read-the-Docs Documentation',
      'TRsky', 'manual'),
 ]
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'read-thw-docs', 'Read-thw-Docs Documentation',
+    (master_doc, 'read-the-docs', 'Read-the-Docs Documentation',
      [author], 1)
 ]
 
@@ -163,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Read-thw-Docs', 'Read-thw-Docs Documentation',
-     author, 'Read-thw-Docs', 'One line description of project.',
+    (master_doc, 'Read-the-Docs', 'Read-the-Docs Documentation',
+     author, 'Read-the-Docs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
