@@ -1,19 +1,22 @@
 剑指 Offer(1)
 =============
 
-## Description
-
+Description
+-----------
 ::
-  在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+ 
+ 在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
 
 相关知识点: 查找
 
-## Solution in C++
+Solution with C++
+------------------
 
-:: 
-  class Solution {
-public:
-    bool Find(int target, vector<vector<int> > array) {
+::
+
+    class Solution {
+    public:
+        bool Find(int target, vector<vector<int> > array) {
         if(array.size()==0){
             return false;
         }
@@ -30,11 +33,40 @@ public:
                 return true;               
         }
         return false;               
-    }
-};
-
+      }
+    };
+ 
  
 - 运行时间：12ms
 - 占用内存：1500k
+
+
+Solution with Python3.6
+------------------------
+
+::
+  
+  #!/usr/bin/env python3.6
+  # -*- coding:utf-8 -*-
+  class Solution:
+    # array 二维列表
+      def Find(self, target, array):
+          if not array:
+              return False
+          rows, cols = len(array), len(array[0])
+          i, j = rows -1, 0
+          while i>=0 and j< cols:
+              if  target < array[i][j]:
+                  i = i-1
+              elif target > array[i][j]:
+                  j = j+1
+              else:
+                  return True
+          return False
+
+- 运行时间：287ms
+
+- 占用内存：5728k
+
 
 
