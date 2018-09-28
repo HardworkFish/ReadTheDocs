@@ -13,5 +13,5 @@ Make a note!
    algorithm/index
    server/index
    vim/index
-
+   shell/index
 

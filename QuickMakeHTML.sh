@@ -1,7 +1,7 @@
 #!/bin/bash
 make html
 
-git add .
+git add --all .
 
 echo "Enter somehing update description:"
 
